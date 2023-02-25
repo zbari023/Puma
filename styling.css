@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-item {
+
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    background: greenyellow;
+
+
+}
+
+.navbar-toggler {
+    color: orange;
+    background-color: antiquewhite;
+}
+
+.backpage {
+    background: url("Images/png\ \(1\).jpeg");
+    min-height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.btn1 {
+    background-color: #ddd;
+    border: none;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.btn1:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn2 {
+    background-color: #ddd;
+    border: none;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.btn2:hover {
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.pics {
+    position: relative;
+    overflow: hidden;
+}
+
+.pics:before {
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 220%;
+    background: orange;
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(30deg);
+    transform-origin: center top 0;
+    transition: .5s;
+
+}
+
+.pics:hover::before {
+    left: 10%;
+}
+
+.picsxt {
+    width: 10%;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: -100%;
+    z-index: 2;
+    transition: 1.5s;
+
+}
+
+.pics:hover .picsxt {
+    left: 20px;
+
+}
+
+.backpage2 {
+    background: url("Images/png\ \(2\).jpeg");
+    min-height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.backpage1 {
+    background: url("Images/png\ \(3\).jpeg");
+    min-height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.imghov {
+    margin: 0;
+
+
+    transition: 0.3s;
+}
+
+.imghov:hover {
+    margin-top: -20px;
+
+}
+.backpage3 {
+    background: url("Images/png\ \(6\).jpeg");
+    min-height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.backpage4 {
+    background: url("Images/png\ \(1\).webp");
+    min-height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}

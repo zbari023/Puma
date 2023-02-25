@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Puma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,600;0,800;1,100;1,400&family=Labrada&family=Lato:ital@0;1&family=Open+Sans:ital,wght@0,600;1,500&family=Oswald:wght@300;400;500;700&family=Prosto+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&family=Roboto+Slab:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container">
+
+            <img src="Images/th (1).jpeg" width="100px" class="rounded mx-3" alt="">
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Damen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Herren</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Kinder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Kollektionen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Sportarten</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Sale</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav   ">
+                    <li class="nav-item me-3">
+                        <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+
+                        </form>
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart-filled"
+                                width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M6.979 3.074a6 6 0 0 1 4.988 1.425l.037 .033l.034 -.03a6 6 0 0 1 4.733 -1.44l.246 .036a6 6 0 0 1 3.364 10.008l-.18 .185l-.048 .041l-7.45 7.379a1 1 0 0 1 -1.313 .082l-.094 -.082l-7.493 -7.422a6 6 0 0 1 3.176 -10.215z"
+                                    stroke-width="0" fill="orange"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart"
+                                width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="orange" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                                <path d="M17 17h-11v-14h-2"></path>
+                                <path d="M6 5l14 1l-1 7h-13"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="20"
+                                height="20" viewBox="0 0 24 24" stroke-width="2" stroke="orange" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="backpage">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center mt-5 mx-auto">
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center mt-5 mx-auto">
+                    <h1 class="text-light fw-bolder mt-5">MB.02 FLARE</h1>
+                    <h5 class="text-light my-2">By LaMelo Ball</h5>
+                    <button type="button" class=" btn1 p-2 btn-light">Jetzt Shoppen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center mt-5 mx-auto">
+                <div class="pics">
+                    <div class="picsxt">
+                        <h3>129$</h3>
+                    </div>
+                    <img src="Images/MB.02-Basketballschuhe" class="img-fluid shadow-lg" alt="">
+                </div>
+                <button type="button" class="btn2 p-2 my-1">MB.02 Basketballschuhe </button>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center mt-5 mx-auto">
+                <div class="pics">
+                    <div class="picsxt">
+                        <h3>69$</h3>
+                    </div>
+                    <img src="Images/PUMA-x-RICK-AND-MORTY-Full-Zip-Basketball-Hoodie-für-Herren.jpeg"
+                        class="img-fluid shadow-lg" alt="">
+                </div>
+                <button type="button" class="btn2 p-2 my-1">PUMA x Rick and Morty Herren Basketball-Shorts</button>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center mt-5 mx-auto">
+                <div class="pics">
+                    <div class="picsxt">
+                        <h3>39$</h3>
+                    </div>
+                    <img src="Images/PUMA-x-Rick-and-Morty-Herren-Basketball-Shorts.jpeg" class="img-fluid shadow-lg"
+                        alt="">
+                </div>
+                <button type="button" class="btn2 p-2 my-1">PUMA x RICK AND MORTY Pickle Rick Basketball-T-Shirt für
+                    Herren</button>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center mt-5 mx-auto">
+                <div class="pics">
+                    <div class="picsxt">
+                        <h3>99.99$</h3>
+                    </div>
+                    <img src="Images/PUMA-x-RICK-AND-MORTY-Pickle-Rick-Basketball-T-Shirt-für-Herren.jpeg"
+                        class="img-fluid shadow-lg" alt="">
+                </div>
+                <button type="button" class="btn2 p-2 my-1">PUMA x RICK AND MORTY Full-Zip Basketball-Hoodie für
+                    Herren</button>
+            </div>
+        </div>
+    </div>
+    <div class="backpage1">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-6 col-md-6 col-sm-12  mt-5 mx-auto">
+                    <h1 class="text-light mx-3 fw-bolder mt-1">DEVIATE</h1>
+                    <h5 class="text-light mx-3 mt-1">NITRO 2</h5>
+                    <p class="text-light mx-3 my-2">Optimaler Antrieb fürs tägliche Laufen</p>
+                    <button type="button" class=" btn1 p-2 mx-3 mt-1 btn-light">Jetzt Shoppen</button>
+                    <button type="button" class=" btn1 p-2 mx-3 mt-1 btn-light">Mehr Erfahren</button>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center mt-5 mx-auto">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-4">
+            <h4 class="text-center mx-auto fw-bolder">MAXIMALER STYLE FÜR MAXIMALES WORKOUT</h4>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mx-auto my-2">
+                <img src="Images/png (4).jpeg" class="img-fluid imghov shadow-lg" alt="">
+                <h4 class="text-center mt-2">PUMA FIT KOLLEKTION</h4>
+                <p class="text-center mt-2">Getragen von Pamela Reif</p>
+                <button type="button" class=" btn1 p-2 btn-light">Für Männer Shoppen</button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mx-auto my-2 ">
+                <img src="Images/png (5).jpeg" class="img-fluid imghov" alt="">
+                <h4 class="text-center mt-2"> PUMA STUDIO KOLLEKTION</h4>
+                <p class="text-center mt-2">Alles für dein Yoga-Workout</p>
+                <button type="button" class=" btn1 p-2 btn-light">Jetzt Shoppen</button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mx-auto my-2">
+                <img src="Images/png.webp" class="img-fluid imghov" alt="">
+                <h4 class="text-center mt-2">PUMA FIT KOLLEKTION</h4>
+                <p class="text-center mt-2">Dein Training, next level</p>
+                <button type="button" class=" btn1 p-2 btn-light">Für Frauen Shoppen</button>
+            </div>
+        </div>
+    </div>
+    <div class="backpage3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center mt-5 mx-auto">
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center mt-5 mx-auto">
+                    <h1 class="text-light fw-bolder fs-1 ms-5 mt-5">SEASONS</h1>
+                    <h5 class="text-light my-2 ms-5">KOLLEKTION</h5>
+                    <p class="text-light my-2 ms-5">Wind und Wetter entgegen</p>
+                    <button type="button" class=" btn1 p-2 ms-5 btn-light">Jetzt Shoppen</button>
+                    <button type="button" class=" btn1 p-2 ms-5 btn-light">Mehr Erfahren</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="backpage4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center mt-5 mx-auto">
+                    <h1 class="text-light fw-bolder fs-1 ms-5 mt-5">FOREVER. FASTER.</h1>
+                    <p class="text-light my-3 ms-5">seit 1948</p>
+                    <button type="button" class=" btn1 p-2 ms-5 btn-light">Jetzt Shoppen</button>
+                    <button type="button" class=" btn1 p-2 ms-5 btn-light">Mehr Erfahren</button>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center mt-5 mx-auto">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-4">
+            <h4 class="text-center mx-auto fw-bolder">MAXIMALER STYLE FÜR MAXIMALES WORKOUT</h4>
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center mx-auto my-2">
+                <div class="pics">
+                    <div class="picsxt">
+                        <h3>109.99$</h3>
+                    </div>
+                    <img src="Images/Rider-FV-Archive-Remastered-Sneakers.webp" class="img-fluid shadow-lg" alt="">
+                </div>
+                <button type="button" class="btn2 p-2 my-3 text-center">Rider-FV-Archive-Remastered-Sneakers</button>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center mx-auto my-2 ">
+                <div class="pics">
+                    <div class="picsxt">
+                        <h3>99.95$</h3>
+                    </div>
+                    <img src="Images/RS-X-Efekt-Archive-Remastered-Sneakers-Kinder.webp" class="img-fluid shadow-lg"
+                        alt="">
+                </div>
+                <button type="button"
+                    class="btn2 p-2 my-3 text-center">RS-X-Efekt-Archive-Remastered-Sneakers-Kinder</button>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center mx-auto my-2">
+                <div class="pics">
+                    <div class="picsxt">
+                        <h3>119.90$</h3>
+                    </div>
+                    <img src="Images/Slipstream-Archive-Remastered-Sneakers.webp" class="img-fluid shadow-lg" alt="">
+                </div>
+                <button type="button" class="btn2 p-2 my-3 text-center">Slipstream-Archive-Remastered-Sneakers</button>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center mx-auto my-2">
+                <div class="pics">
+                    <div class="picsxt">
+                        <h3>89.99$</h3>
+                    </div>
+                    <img src="Images/Suede-Archive-Remastered-Sneakers.webp" class="img-fluid shadow-lg" alt="">
+                </div>
+                <button type="button" class="btn2 p-2 my-3 text-center">Suede-Archive-Remastered-Sneakers</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12 mx-auto text-center">
+                <video src="Images/23SS_Ecom_Global_SP_Downtown_CNV_1440x500_10s.mp4"
+                    class="img-fluid " autoplay></video>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row my-4">
+            <h4 class="text-center mx-auto fw-bolder my-4">NACH SPORTART SHOPPEN</h4>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mx-auto my-2">
+                <img src="Images/png (7).jpeg" class="img-fluid imghov shadow-lg" alt="">
+                <h4 class="text-center mt-2">Fußball</h4>
+               
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mx-auto my-2 ">
+                <img src="Images/png (8).jpeg" class="img-fluid imghov" alt="">
+                <h4 class="text-center mt-2"> Golf</h4>
+          
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mx-auto my-2">
+                <img src="Images/png (9).jpeg" class="img-fluid imghov" alt="">
+                <h4 class="text-center mt-2">Basketball</h4>
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
